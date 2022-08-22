@@ -10,7 +10,7 @@ const Stack = createNativeStackNavigator();
 function App() {
   return (
     <NavigationContainer >
-      <Stack.Navigator >
+      <Stack.Navigator>
         <Stack.Screen name="Home" component={HomeSreen} />
         <Stack.Screen name="MovieFinder" component={MovieFinder} />
       </Stack.Navigator>
@@ -23,7 +23,7 @@ export default App;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#868B8E',
+    backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
   },
